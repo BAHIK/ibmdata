@@ -1,10 +1,19 @@
 # New Grocery Store in San Diego
 
 ## 1. Introduction
-For everyone who wants to start their own business, the most concerned question is where to open their business. In this scenario, I am trying to find a location for a new grocery store in San Diego County, CA. The best location should be in the city that has the most potential customers (population of city/number of grocery stores in the city), also as a potential supplier, it should close to the most restaurants in this city (cluster all the restaurants in the neighborhood, the best location should be close to the centroid of the cluster that has the most restaurants). Hope it could bring some insights to future business owners when choosing their dream locations.
+For everyone who wants to start their own business, the most concerned question is where to open their business. 
+
+In this scenario, I am trying to find a location for a new grocery store in San Diego County, CA. The best location should be in the city that has the most potential customers (population of city/number of grocery stores in the city), also as a potential supplier, it should close to the most restaurants in this city (cluster all the restaurants in the neighborhood, the best location should be close to the centroid of the cluster that has the most restaurants). 
+
+Targeted audiences: Future business owners when choosing their dream locations.
 
 ## 2. Data
-I found two useful datasets: 1) Population of California cities; 2) Geographic coordinates of California cities. From which I can easily extract information of each city in San Diego County, such as geographic coordinates and population of each city and combine as one dataset. With Foursquare API, I could find out the venue information of each city, especially grocery store amount in each city.
+I found two useful datasets: 1) Population of California cities; 2) Geographic coordinates of California cities. 
+
+Examples: I can easily extract population and geographic coordinates of each city in San Diego County. With Foursquare API, I could find out the venue information of each city, especially grocery store amount in each city.
+
+Features: population, geographic coordinates, venue category, venue name
+
 
 ## 3. Methodology
 1) Population -> figure out the population of each city in San Diego County.
