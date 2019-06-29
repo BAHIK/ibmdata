@@ -35,8 +35,10 @@ The best location for the new grocery store is: 32.71456327 -117.15607955, in th
 
 ## Data Source: 
 California cities dataset by Cam Nugent
+
 https://www.kaggle.com/camnugent/california-housing-feature-engineering
 
 ## References:
 ‘Clustering to Reduce Spatial Data Set Size’ by Geoff Boeing
+
 https://geoffboeing.com/2014/08/clustering-to-reduce-spatial-data-set-size/
