@@ -14,19 +14,26 @@ I found two useful datasets: 1) Population of California cities; 2) Geographic c
 
 ## 4. Results and Discussion
 1) There are 18 cities in San Diego County and mapped with folium (see below). 
-!['Cities'](f:\1.png) 
+
+![San Diego Cities](1.png) 
 
 2) With Foursquare API and the geographic coordinates of each city, I fetched the venue information for each city, and extracted all the grocery stores in the whole county (see below).
- 
+
+![Grocery Store Venues](2.png)  
 
 3) The number of grocery stores for the cities are listed (see below), for other cities not listed in, the number is 0.
-  
+
+![Grocery Store Counts](3.png)   
 
 4) Potential customer amount: the ‘New Store Share’ value was calculated by dividing the population of each city by (the number of grocery stores of each city + 1). The data was sorted by ‘New Store Share’ in descending order. The city of San Diego has the largest potential customers, thus it would be the best city for opening a new grocery store.
- 
+
+![Sorted by 'New Store Share'](4.png)  
 
 5) Since I decided to open the grocery store in San Diego city, the next question is where exactly the location would be. Ideally, the grocery store should be close to most of the restaurants, as a potential grocery supplier, thus, I gathered all the restaurant venue information of Foursquare from above, extracted all the restaurant locations (total is 34) in San Diego city, and clustered them into 4 groups using DBSCAN, and mapped them in different colors (see below).
- 
+
+![Restaurant Venues](5.png)  
+
+![Restaurants in the city of San Diego](6.png) 
 
 6) From the map above, I could easily tell that the purple dot (cluster 1) is the largest cluster. The best location should be the center of this cluster, i.e. the centroid. Using NearestCentroid from sklearn, I got the centroid for cluster1 is: 32.71456327 -117.15607955.
 
