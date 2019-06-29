@@ -14,7 +14,7 @@ I found two useful datasets: 1) Population of California cities; 2) Geographic c
 
 ## 4. Results and Discussion
 1) There are 18 cities in San Diego County and mapped with folium (see below). 
- 
+!['Cities'](f:\1.png) 
 
 2) With Foursquare API and the geographic coordinates of each city, I fetched the venue information for each city, and extracted all the grocery stores in the whole county (see below).
  
